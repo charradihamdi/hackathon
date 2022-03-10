@@ -4,5 +4,5 @@ const fs = require("fs");
 const { promisify } = require("util");
 const pipeline = promisify(require("stream").pipeline);
 module.exports.readPost = (req, res) => {
- return res.status(400).send("ID unknown : ");
+ return res.status(400).send("selected ");
 };
